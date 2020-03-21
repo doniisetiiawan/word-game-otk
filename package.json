@@ -1,7 +1,11 @@
 {
   "name": "wallapp-ugo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon --watch . start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "Doni Setiawan <donisetiawan.050@gmail.com>",
   "license": "MIT",
   "devDependencies": {
